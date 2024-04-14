@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+
+.container{
+    color:rgba(255, 255, 255, 1);
+    max-width:1400%; /* Max-width junto com o margin deixa as seções com resposividade. Ou seja, respeitando o tamanho de tela que o usuário trabalha*/
+    margin: 0 auto;
+    padding: 0;      
+}
+
+
+header{
+    background-color:rgba(255, 255, 255, 1);
+    height: 70px;
+
+}
+
+
+body{
+    background-color: rgba(237, 237, 242, 1);
+    
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: -15px;
+}
+
+nav ul{
+    display: flex;
+    /*align-items: center; Preciso saber porque isso não deixou a nav no centro*/
+    margin: 0 25%;
+    text-align: center;
+}
+
+
+
+nav ul a{
+    color:rgba(0, 98, 255, 1);
+    margin: 0 10px;
+    text-transform: uppercase;
+    font-size: 17px;
+    display: ; /*Porque usar esses formato de bloco aqui?*/ 
+    position: relative;
+    left: 90px;  
+}
+
+
+.engrenagemImg{
+    position: relative;
+    left: 250px;
+}
+
+.sinoImg{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 250px;
+}
+.userImg{
+    position: relative;
+    border-radius: 80%;
+    left: 260px;    
+}
+
+/* Estilizando o Search*/
+
+
+/*
+main{
+    height: 100vh;
+}
+*/
+
+
+.search-box {
+    margin: 50px auto; /* Centralizar na página */
+    text-align: center; /* Alinhar o conteúdo ao centro */
+}
+
+  /* Estilos para o campo de pesquisa */
+  .search-box {
+    width: 1200px; /* Largura do campo de pesquisa */
+    height: 70px; /* Altura do campo de pesquisa */
+    padding-top:  ; /* Espaçamento interno */
+    font-size: ; /* Tamanho da fonte */
+    border: 36px solid rgba(255, 255, 255, 1); /* Borda */
+    
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor do mouse */ 
+    position: relative;
+}
+
+
+.lupa-img{
+    width: 45px;
+    height: 40px;
+    position: relative;
+    bottom: 40px;
+    left: 552px;
+}
+
+.search-text{
+    
+    margin-left: -10px; 
+    height: 40px;
+    width: 1150px;
+    border: none;
+    background-color: rgba(237, 237, 242, 1);
+    outline: none;
+    border-radius: 10px;
+    font-size: 8px;
+    line-height: 40px; ;
+    position: relative;
+    top: -20px;
+    font-size: 20px;
+}
+
+
+.search-btn{
+    background-color: rgba(83, 116, 255, 1);
+    position: relative;
+    top: -20px;   
+}
+/* Main - produtos*/
+
+.area-produtos{   
+    border: 1px solid black;
+    display: inline-block;
+    width: 1200px;
+    height: 600px;
+    position: absolute;
+        top: 58%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+.container-produto1{
+    border: 1px solid black;
+    display: inline-block;
+    position: absolute;
+    width: 180px;
+    height: 200px;
+
+}
+
+
+
+
