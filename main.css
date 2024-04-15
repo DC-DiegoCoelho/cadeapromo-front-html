@@ -1,12 +1,136 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.header{
+    width: 100%;
+    height: 63px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-list a {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 600;
+    color: #2E2E3A;
     text-decoration: none;
-    outline: none;
+}
+
+.menu-list a:active {
+    color: #0062FF;
+}
+
+.menu-list a:hover {
+    color: #0062FF;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+
+.left-header .user-settings {
+    display: flex;
+    gap: 25px;
+}
+
+.left-header .user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.left-header .user-profile p {
+    margin: 0px;
+}
+
+.left-header .user-information {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-header .user-information p {
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 600;
+    color: #2E2E3A;
+}
+
+.left-header .user-information small {
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: normal;
+    color: #9A9AAF;
+}
+
+.left-header .user-profile .user-photo img {
+    border-radius: 50%;
+}
+
+
+@media (max-width: 767px) {
+    .header {
+        justify-content: center;
+    }
+    
+    .menu-list, .left-header {
+        display: none;
+    }
+}
+
+/* @media (max-width: 425px) {
+    .header {
+        justify-content: center;
+    }
+    
+    .menu-list, .left-header {
+        display: none;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    background-color:rgba(255, 255, 255, 1);
 }
 
 
@@ -19,7 +143,7 @@
 
 
 header{
-    background-color:rgba(255, 255, 255, 1);
+    
     height: 70px;
 
 }
@@ -51,8 +175,7 @@ nav ul a{
     color:rgba(0, 98, 255, 1);
     margin: 0 10px;
     text-transform: uppercase;
-    font-size: 17px;
-    display: ; /*Porque usar esses formato de bloco aqui?*/ 
+    font-size: 17px; 
     position: relative;
     left: 90px;  
 }
@@ -94,8 +217,6 @@ main{
   .search-box {
     width: 1200px; /* Largura do campo de pesquisa */
     height: 70px; /* Altura do campo de pesquisa */
-    padding-top:  ; /* Espaçamento interno */
-    font-size: ; /* Tamanho da fonte */
     border: 36px solid rgba(255, 255, 255, 1); /* Borda */
     
     border-radius: 5px; /* Bordas arredondadas */
